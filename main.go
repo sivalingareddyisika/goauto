@@ -7,7 +7,7 @@ import (
     "strconv"
 )
 
-func main() {
+func main(..) {
     r := gin.Default()
 
     r.SetHTMLTemplate(template.Must(template.New("").Parse(`
