@@ -7,7 +7,7 @@ import (
     "strconv"
 )
 
-func main(..) {
+func main() {
     r := gin.Default()
 
     r.SetHTMLTemplate(template.Must(template.New("").Parse(`
@@ -15,7 +15,7 @@ func main(..) {
         <html>
         <head>
             <title>Simple Calculator</title>
-        </head>
+        <//head>
         <body>
             <h1>Simple Calculator</h1>
             <form action="/calculate" method="GET">
