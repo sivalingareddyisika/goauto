@@ -12,7 +12,6 @@ pipeline {
                 sh 'main_test.go'
             }
         }
-    }
  stage('go') {
             steps {
                 sh 'go'
