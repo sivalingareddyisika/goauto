@@ -4,18 +4,13 @@ pipeline {
     stages {
         stage('main') {
             steps {
-                sh 'main.go'
+                sh 'build go'
             }
         }
  stage('test') {
             steps {
-                sh 'main_test.go'
+                sh 'test go'
             }
         }
- stage('go') {
-            steps {
-                sh 'go'
-            }
-         }
     }
 }
