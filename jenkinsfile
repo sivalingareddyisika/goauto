@@ -13,4 +13,10 @@ pipeline {
             }
         }
     }
+ stage('go') {
+            steps {
+                sh 'go'
+            }
+         }
+    }
 }
