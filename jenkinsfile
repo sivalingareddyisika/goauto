@@ -7,5 +7,10 @@ pipeline {
                 echo 'main.go'
             }
         }
+ stage('test') {
+            steps {
+                echo 'main_test.go'
+            }
+        }
     }
 }
